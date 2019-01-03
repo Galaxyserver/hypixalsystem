@@ -2112,4 +2112,12 @@ client.on("message", message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
+
+client.on('ready', ready => {
+client.user.setGame(`Hhelp|HypixalArab`,`https://twitch.tv/ichbinxirdx`)
+});
+
+
+
+
 client.login(process.env.BOT_TOKEN);
